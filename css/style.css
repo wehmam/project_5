@@ -9,7 +9,7 @@
     float: right;
     padding-left: 20px;
     margin-left: 10px;
-    width: 100px;
+    width: 150px;
 }
 #header li a{
     text-decoration: none;
@@ -71,7 +71,6 @@
 
 a:link,
 a:visited {
-    background-color: whitesmoke;
     color: blue;
     padding: 10px 10px;
     text-align: center;
@@ -81,9 +80,12 @@ a:visited {
 
 a:hover,
 a:active {
-    background-color: red;
+    /* background-color: red; */
 }
 
 #content2 .isicontent2 a {
     margin-left: 10px;
+}
+#content2 a{
+    background-color: whitesmoke;
 }
